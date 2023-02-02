@@ -1,0 +1,170 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8f8ff;
+}
+
+button {
+    background-color: #646ff0;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+}
+
+button, 
+select,
+input[type='checkbox'] {
+    cursor: pointer;
+}
+
+.App {
+    width: 85%;
+    margin: 20px auto;
+}
+
+h1 {
+    text-align: center;
+    color: #7f8280;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 70px 0;
+}
+
+.add-task {
+    font-size: 18px;
+    padding: 10px 20px;
+}
+
+.select {
+    font-size: 17px;
+    padding: 8px 10px;
+    background-color: #cccdde;
+    color: #585858;
+    border: none;
+    border-radius: 6px;
+}
+
+form {
+    background-color: #ecedf6;
+    width: 60%;
+    margin: 0 auto;
+    padding: 15px;
+    position: fixed;
+    top: 20%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    box-shadow: 3px 3px 10px #adaaaa;
+    border-radius: 7px;
+}
+
+form label {
+    display: block;
+    font-size: 17px;
+    color: #7f8280;
+    margin: 6px 0;
+}
+
+form input {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+h2 {
+    color: #7f8280;
+    margin-bottom: 30px;
+}
+
+form button {
+    margin-top: 35px;
+    padding: 8px 10px;
+}
+
+.btn-cancel {
+    margin-left: 8px;
+    background-color:#cccdde;
+    color: #646681;
+}
+
+.btn-cancel:hover,
+.btn-cancel:focus {
+    background-color: #ed070f;
+    color: #fff;
+    outline: none;
+}
+
+ul {
+    list-style: none;
+    background-color: #ecedf6;
+    padding: 10px;
+    border-radius: 10px;;
+}
+
+ul li {
+    font-size: 17px;
+}
+
+.task,
+.edit-task {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+    background-color: #fff;
+    padding: 8px 10px;
+    border-radius: 7px;
+}
+
+.task div {
+    display: flex;
+    align-items: center;
+}
+
+input[type='checkbox'] {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+    background-color: #ecedf6;
+}
+
+.btn-task button {
+    all: unset;
+    margin: 0 4px;
+    background-color:#eee;
+    color: #585858;
+    padding: 6px 7px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-task button:hover,
+.btn-task button:focus {
+    background-color: #dedfe1;
+}
+
+.edit-task input {
+    width: 90%;
+    border: none;
+    border-bottom: 1px solid #585858;
+    padding: 6px;
+}
+
+.edit-task input:focus {
+    border-bottom: 1px solid #585858;
+    outline: none;
+}
+
+.edit-task button {
+    padding: 4px 7px;
+}
